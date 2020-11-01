@@ -1,0 +1,39 @@
+{
+  "title": "user-don",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "4e816e32e37e8d4d",
+      "text": "[[don asia wiki org]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "user-don",
+        "story": []
+      },
+      "date": 1460188449311
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4e816e32e37e8d4d"
+      },
+      "id": "4e816e32e37e8d4d",
+      "type": "add",
+      "date": 1460188452589
+    },
+    {
+      "type": "edit",
+      "id": "4e816e32e37e8d4d",
+      "item": {
+        "type": "paragraph",
+        "id": "4e816e32e37e8d4d",
+        "text": "[[don asia wiki org]]"
+      },
+      "date": 1460188481813
+    }
+  ]
+}

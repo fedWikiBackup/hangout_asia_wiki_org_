@@ -1,0 +1,93 @@
+{
+  "title": "Changes",
+  "story": [
+    {
+      "type": "roster",
+      "id": "3eced3976681ece9",
+      "text": "this site\n\nhangout.asia.wiki.org"
+    },
+    {
+      "type": "activity",
+      "id": "e9e9f102158e1382",
+      "text": "ROSTER this site\nCONVERSATION\nNARRATIVE\nSINCE 10 days"
+    },
+    {
+      "type": "factory",
+      "id": "e633415b9562b83e"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Changes",
+        "story": []
+      },
+      "date": 1460187832949
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cd1c89ae94795495"
+      },
+      "id": "cd1c89ae94795495",
+      "type": "add",
+      "date": 1460187855525
+    },
+    {
+      "type": "edit",
+      "id": "cd1c89ae94795495",
+      "item": {
+        "type": "search",
+        "id": "cd1c89ae94795495",
+        "text": "\n"
+      },
+      "date": 1460188025502
+    },
+    {
+      "type": "remove",
+      "id": "cd1c89ae94795495",
+      "date": 1460188091443
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e633415b9562b83e"
+      },
+      "id": "e633415b9562b83e",
+      "type": "add",
+      "date": 1460188093542
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "3eced3976681ece9",
+        "text": "this site\n\nhangout.asia.wiki.org"
+      },
+      "id": "3eced3976681ece9",
+      "date": 1460188683580
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "CONVERSATION\nNARRATIVE\nSINCE 10 days"
+      },
+      "after": "3eced3976681ece9",
+      "id": "e9e9f102158e1382",
+      "date": 1460188687483
+    },
+    {
+      "type": "edit",
+      "id": "e9e9f102158e1382",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "ROSTER this site\nCONVERSATION\nNARRATIVE\nSINCE 10 days"
+      },
+      "date": 1460188739731
+    }
+  ]
+}

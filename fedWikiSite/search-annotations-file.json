@@ -1,0 +1,98 @@
+{
+  "title": "Search Annotations File",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "081159b997aa1e6b",
+      "text": "To work on an XML file, download the XML specification from Advanced tab of the Control Panel. Don't start a file from scratch. Do the following:"
+    },
+    {
+      "type": "paragraph",
+      "id": "2b3ee304d4f14b79",
+      "text": "As the following example shows, refinement labels are defined using Facet elements within the Context section."
+    },
+    {
+      "type": "code",
+      "id": "5573d603d4d8400c",
+      "text": "<CustomSearchEngine>\n  <Title>Universities</Title>\n    <Context>\n      <Facet>\n        <FacetItem title=\"Lectures\">\n           <Label name=\"lectures\" mode=\"BOOST\" weight=\"0.8\">\n              <Rewrite>lecture OR lectures</Rewrite>\n           </Label>\n        </FacetItem>\n      </Facet>\n      <Facet>\n        <FacetItem title=\"Assignments\">\n          <Label name=\"assignments\" mode=\"BOOST\" weight=\"0.8\">\n            <Rewrite>homework OR assignment OR assignments</Rewrite>\n          </Label>\n        </FacetItem>\n     </Facet>\n     <Facet>\n       <FacetItem title=\"Reference\">\n         <Label name=\"reference\" mode=\"FILTER\">\n            <IgnoreBackgroundLabels>true</IgnoreBackgroundLabels>\n         </Label>\n       </FacetItem>\n     </Facet>\n     <Facet>\n        <FacetItem title=\"Papers\">\n          <Label name=\"papers\" mode=\"FILTER\"/>\n          <Redirect url=\"http://scholar.google.com/scholar?q=$q\"/>\n        </FacetItem>\n      </Facet>\n      <BackgroundLabels>\n        <Label name=\"_cse_omuauf_lfve\" mode=\"FILTER\"/>\n        <Label name=\"_cse_exclude_omuauf_lfve\" mode=\"ELIMINATE\"/>\n      </BackgroundLabels>\n    </Context>\n  </CustomSearchEngine>"
+    },
+    {
+      "type": "paragraph",
+      "id": "b5fb16619ce692fa",
+      "text": "When you start editing your annotations file, start out with a small number of annotations, and then test some search queries in the Preview tab of the Control Panel. It's easier to test and troubleshoot your search engine with a handful of annotations. When you get the results that you expect, incrementally add more annotations."
+    },
+    {
+      "type": "paragraph",
+      "id": "3e9e2850d06a5bc3",
+      "text": "You can either upload the annotations file to the Control Panel or host it in your own website. For details about file limits, see the Annotations Limits section."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Search Annotations File",
+        "story": []
+      },
+      "date": 1460190575952
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2b3ee304d4f14b79",
+        "text": "As the following example shows, refinement labels are defined using Facet elements within the Context section."
+      },
+      "id": "2b3ee304d4f14b79",
+      "date": 1460190578844
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "5573d603d4d8400c",
+        "text": "<CustomSearchEngine>\n  <Title>Universities</Title>\n    <Context>\n      <Facet>\n        <FacetItem title=\"Lectures\">\n           <Label name=\"lectures\" mode=\"BOOST\" weight=\"0.8\">\n              <Rewrite>lecture OR lectures</Rewrite>\n           </Label>\n        </FacetItem>\n      </Facet>\n      <Facet>\n        <FacetItem title=\"Assignments\">\n          <Label name=\"assignments\" mode=\"BOOST\" weight=\"0.8\">\n            <Rewrite>homework OR assignment OR assignments</Rewrite>\n          </Label>\n        </FacetItem>\n     </Facet>\n     <Facet>\n       <FacetItem title=\"Reference\">\n         <Label name=\"reference\" mode=\"FILTER\">\n            <IgnoreBackgroundLabels>true</IgnoreBackgroundLabels>\n         </Label>\n       </FacetItem>\n     </Facet>\n     <Facet>\n        <FacetItem title=\"Papers\">\n          <Label name=\"papers\" mode=\"FILTER\"/>\n          <Redirect url=\"http://scholar.google.com/scholar?q=$q\"/>\n        </FacetItem>\n      </Facet>\n      <BackgroundLabels>\n        <Label name=\"_cse_omuauf_lfve\" mode=\"FILTER\"/>\n        <Label name=\"_cse_exclude_omuauf_lfve\" mode=\"ELIMINATE\"/>\n      </BackgroundLabels>\n    </Context>\n  </CustomSearchEngine>"
+      },
+      "after": "2b3ee304d4f14b79",
+      "id": "5573d603d4d8400c",
+      "date": 1460190580923
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "081159b997aa1e6b",
+        "text": "To work on an XML file, download the XML specification from Advanced tab of the Control Panel. Don't start a file from scratch. Do the following:"
+      },
+      "id": "081159b997aa1e6b",
+      "date": 1460190916549
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "b5fb16619ce692fa",
+        "text": "When you start editing your annotations file, start out with a small number of annotations, and then test some search queries in the Preview tab of the Control Panel. It's easier to test and troubleshoot your search engine with a handful of annotations. When you get the results that you expect, incrementally add more annotations."
+      },
+      "after": "5573d603d4d8400c",
+      "id": "b5fb16619ce692fa",
+      "date": 1460191042074
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "3e9e2850d06a5bc3",
+        "text": "You can either upload the annotations file to the Control Panel or host it in your own website. For details about file limits, see the Annotations Limits section."
+      },
+      "after": "b5fb16619ce692fa",
+      "id": "3e9e2850d06a5bc3",
+      "date": 1460191052977
+    },
+    {
+      "type": "fork",
+      "site": "dev.himalayan.academy",
+      "date": 1460191194547
+    }
+  ]
+}

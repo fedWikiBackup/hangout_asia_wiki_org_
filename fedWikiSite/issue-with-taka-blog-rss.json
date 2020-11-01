@@ -1,0 +1,309 @@
+{
+  "title": "Issue with TAKA Blog RSS",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "675311c181ca736c",
+      "text": "There was an issue with the RSS link at the bottom of the [[TAKA Blog]]. This has now been fixed."
+    },
+    {
+      "type": "paragraph",
+      "id": "5947b59b5f2c8d7d",
+      "text": "You can view the fixed  [[TAKA Blogg RSS]] feed [http://www.himalayanacademy.com/blog/taka/feed/ here]"
+    },
+    {
+      "type": "html",
+      "id": "20084356ff8e69ce",
+      "text": "<blockquote><b style='color:red'>Issue: </b>\n\nThe TAKA blog is generating a lot of [[Not Found Errors (404)]]. Many of these were tracked to an [[Issue with TAKA Blog RSS]] at the bottom. This has now been fixed.<p>"
+    },
+    {
+      "type": "paragraph",
+      "id": "367c498f2ec9836c",
+      "text": "The error appears to have been introduced around 6th Feb 2016 by a change to the [[resources-archives.php]] file of the TAKA Blog."
+    },
+    {
+      "type": "paragraph",
+      "id": "b3582f92b20b2674",
+      "text": "The faulty line was right at the bottom of the code and was due to url escaping of the php tags. The faulty line read:"
+    },
+    {
+      "type": "code",
+      "id": "0bff3ed0109be559",
+      "text": "<a class=\"action rss\" href=\"&lt;?php bloginfo('rss2_url'); ?&gt;\"> Subscribe to RSS Feed </a> \n"
+    },
+    {
+      "type": "paragraph",
+      "id": "d000feef2ae68b66",
+      "text": "and has now been corrected (9 April 2016) to:"
+    },
+    {
+      "type": "code",
+      "id": "cf5a0db1d13e3c6c",
+      "text": "<a class=\"action rss\" href=\"<?php bloginfo('rss2_url'); ?>\"> Subscribe to RSS Feed </a> \n"
+    },
+    {
+      "type": "html",
+      "id": "cec79293b6479153",
+      "text": "<blockquote><b style='color: darkgreen'>Suggestion: </b>\n<p>\n\nCan we have a single place where any [[Changes to HA  web site]] are logged - who made them and where?"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Issue with TAKA Blog RSS",
+        "story": []
+      },
+      "date": 1460160658625
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "675311c181ca736c"
+      },
+      "id": "675311c181ca736c",
+      "type": "add",
+      "date": 1460160659710
+    },
+    {
+      "type": "edit",
+      "id": "675311c181ca736c",
+      "item": {
+        "type": "paragraph",
+        "id": "675311c181ca736c",
+        "text": "There was an issue with the RSS link at the bottom of the [[TAKA Blog]]. This has now been fixed."
+      },
+      "date": 1460160722176
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "20084356ff8e69ce",
+        "text": "<blockquote><b style='color:red'>Issue: </b>\n\nThe TAKA blog is generating a lot of [[Not Found Errors (404)]]. Many of these were tracked to an [[Issue with TAKA Blog RSS]] at the bottom. This has now been fixed.<p>"
+      },
+      "after": "675311c181ca736c",
+      "id": "20084356ff8e69ce",
+      "date": 1460160746009
+    },
+    {
+      "type": "add",
+      "id": "367c498f2ec9836c",
+      "item": {
+        "type": "paragraph",
+        "id": "367c498f2ec9836c",
+        "text": "The error appears to have been introduced around "
+      },
+      "after": "675311c181ca736c",
+      "date": 1460160766820
+    },
+    {
+      "type": "edit",
+      "id": "367c498f2ec9836c",
+      "item": {
+        "type": "paragraph",
+        "id": "367c498f2ec9836c",
+        "text": "The error appears to have been introduced around 6th Feb 2016 by a change to the "
+      },
+      "date": 1460160811171
+    },
+    {
+      "type": "edit",
+      "id": "367c498f2ec9836c",
+      "item": {
+        "type": "paragraph",
+        "id": "367c498f2ec9836c",
+        "text": "The error appears to have been introduced around 6th Feb 2016 by a change to the [[resources-archives.php]] file of the TAKA Blog."
+      },
+      "date": 1460160856046
+    },
+    {
+      "type": "add",
+      "id": "b3582f92b20b2674",
+      "item": {
+        "type": "paragraph",
+        "id": "b3582f92b20b2674",
+        "text": "The faulty line was right at the bottom of the code and was due to url escaping of the php tags. The faulty line read:"
+      },
+      "after": "367c498f2ec9836c",
+      "date": 1460161176525
+    },
+    {
+      "type": "add",
+      "id": "d000feef2ae68b66",
+      "item": {
+        "type": "paragraph",
+        "id": "d000feef2ae68b66",
+        "text": "and has now been corrected to:"
+      },
+      "after": "b3582f92b20b2674",
+      "date": 1460161185533
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cf5a0db1d13e3c6c"
+      },
+      "id": "cf5a0db1d13e3c6c",
+      "type": "add",
+      "after": "cbbdcbea79a0fcca",
+      "date": 1460161187109
+    },
+    {
+      "type": "edit",
+      "id": "cf5a0db1d13e3c6c",
+      "item": {
+        "type": "code",
+        "id": "cf5a0db1d13e3c6c",
+        "text": "<a class=\"action rss\" href=\"<?php bloginfo('rss2_url'); ?>\"> Subscribe to RSS Feed </a> \n"
+      },
+      "date": 1460161195791
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0bff3ed0109be559"
+      },
+      "id": "0bff3ed0109be559",
+      "type": "add",
+      "after": "cf5a0db1d13e3c6c",
+      "date": 1460161200667
+    },
+    {
+      "type": "move",
+      "order": [
+        "675311c181ca736c",
+        "20084356ff8e69ce",
+        "367c498f2ec9836c",
+        "b3582f92b20b2674",
+        "0bff3ed0109be559",
+        "d000feef2ae68b66",
+        "cf5a0db1d13e3c6c"
+      ],
+      "id": "0bff3ed0109be559",
+      "date": 1460161202290
+    },
+    {
+      "type": "edit",
+      "id": "0bff3ed0109be559",
+      "item": {
+        "type": "code",
+        "id": "0bff3ed0109be559",
+        "text": "\t<a class=\"action rss\" href=\"&lt;?php bloginfo('rss2_url'); ?&gt;\"> Subscribe to RSS Feed </a> \n"
+      },
+      "date": 1460161257314
+    },
+    {
+      "type": "edit",
+      "id": "0bff3ed0109be559",
+      "item": {
+        "type": "code",
+        "id": "0bff3ed0109be559",
+        "text": "<a class=\"action rss\" href=\"&lt;?php bloginfo('rss2_url'); ?&gt;\"> Subscribe to RSS Feed </a> \n"
+      },
+      "date": 1460161273194
+    },
+    {
+      "type": "edit",
+      "id": "d000feef2ae68b66",
+      "item": {
+        "type": "paragraph",
+        "id": "d000feef2ae68b66",
+        "text": "and has now been corrected (9 April 2016) to:"
+      },
+      "date": 1460161298738
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f29a9e1c12421faf"
+      },
+      "id": "f29a9e1c12421faf",
+      "type": "add",
+      "after": "cf5a0db1d13e3c6c",
+      "date": 1460161395082
+    },
+    {
+      "type": "edit",
+      "id": "f29a9e1c12421faf",
+      "item": {
+        "type": "paragraph",
+        "id": "f29a9e1c12421faf",
+        "text": "[[Suggestion}}"
+      },
+      "date": 1460161403437
+    },
+    {
+      "type": "edit",
+      "id": "f29a9e1c12421faf",
+      "item": {
+        "type": "paragraph",
+        "id": "f29a9e1c12421faf",
+        "text": "[[Suggestion]]"
+      },
+      "date": 1460161408413
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "cec79293b6479153",
+        "text": "<blockquote><b style='color: darkgreen'>Suggestion: </b><br>\n<ul>\n<li> [[Testability and code re-use]]\n<li> [[Automatic Testing]]"
+      },
+      "after": "f29a9e1c12421faf",
+      "id": "cec79293b6479153",
+      "date": 1460161422118
+    },
+    {
+      "type": "remove",
+      "id": "f29a9e1c12421faf",
+      "date": 1460161425205
+    },
+    {
+      "type": "edit",
+      "id": "cec79293b6479153",
+      "item": {
+        "type": "html",
+        "id": "cec79293b6479153",
+        "text": "<blockquote><b style='color: darkgreen'>Suggestion: <p>\nCan we have a single place where any [[Changes To the [[Himalayan Academy Web Site]]"
+      },
+      "date": 1460161498253
+    },
+    {
+      "type": "edit",
+      "id": "cec79293b6479153",
+      "item": {
+        "type": "html",
+        "id": "cec79293b6479153",
+        "text": "<blockquote><b style='color: darkgreen'>Suggestion: </b>\n<p>\n\nCan we have a single place where any [[Changes to HA  web site]] are logged - who made them and where?"
+      },
+      "date": 1460161635788
+    },
+    {
+      "type": "add",
+      "id": "5947b59b5f2c8d7d",
+      "item": {
+        "type": "paragraph",
+        "id": "5947b59b5f2c8d7d",
+        "text": "You can view the [[TAKA Blogg RSS]] feed [http://www.himalayanacademy.com/blog/taka/feed/ here]"
+      },
+      "after": "675311c181ca736c",
+      "date": 1460189200388
+    },
+    {
+      "type": "edit",
+      "id": "5947b59b5f2c8d7d",
+      "item": {
+        "type": "paragraph",
+        "id": "5947b59b5f2c8d7d",
+        "text": "You can view the fixed  [[TAKA Blogg RSS]] feed [http://www.himalayanacademy.com/blog/taka/feed/ here]"
+      },
+      "date": 1460189225484
+    },
+    {
+      "type": "fork",
+      "site": "dev.himalayan.academy",
+      "date": 1460191257029
+    }
+  ]
+}

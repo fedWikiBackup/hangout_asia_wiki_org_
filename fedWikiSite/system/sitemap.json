@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "all-the-sites-i-know-about",
+    "title": "all the sites I know about",
+    "date": 1563385941432,
+    "synopsis": "presently 831 sites"
+  },
+  {
+    "slug": "built-to-gather-lists",
+    "title": "built to gather lists",
+    "date": 1460188051664,
+    "synopsis": "[[site pages]]"
+  },
+  {
+    "slug": "changes",
+    "title": "Changes",
+    "date": 1460188739731,
+    "synopsis": "this site"
+  },
+  {
+    "slug": "changes-template",
+    "title": "Changes Template",
+    "date": 1460188674679,
+    "synopsis": "this site"
+  },
+  {
+    "slug": "custom-search-xml-annotations",
+    "title": "Custom Search XML Annotations",
+    "date": 1460191052975,
+    "synopsis": "You can create refinement labels and tag sites with them in the [[Refinements Tab]] of the control panel, but you can have greater control over the ranking if you are using the [[Search Annotations File]] - [https://developers.google.com/custom-search/docs/basics#contextxml developers.google.com]"
+  },
+  {
+    "slug": "don-asia-wiki-org",
+    "title": "don asia wiki org",
+    "date": 1460188552777,
+    "synopsis": "don awo"
+  },
+  {
+    "slug": "issue-with-blog-archives",
+    "title": "Issue with Blog Archives",
+    "date": 1460160324207,
+    "synopsis": "The [[TAKA Blog]] is generating a lot of sdaf. This appears to be connected to the fact that on all blog pages there is a section / tab at the bottom labelled \"Archives\", which is not functioning."
+  },
+  {
+    "slug": "issue-with-taka-blog-rss",
+    "title": "Issue with TAKA Blog RSS",
+    "date": 1460189225484,
+    "synopsis": "There was an issue with the RSS link at the bottom of the [[TAKA Blog]]. This has now been fixed."
+  },
+  {
+    "slug": "published",
+    "title": "published",
+    "date": 1460188815702,
+    "synopsis": "published"
+  },
+  {
+    "slug": "recent-changes",
+    "title": "Recent Changes",
+    "date": 1460188051660,
+    "synopsis": "Here we list neighborhood pages with those most recently changed listed first. See also [[Changes]] which is created via a [[Changes Template]]"
+  },
+  {
+    "slug": "search-annotations-file",
+    "title": "Search Annotations File",
+    "date": 1460191052977,
+    "synopsis": "To work on an XML file, download the XML specification from Advanced tab of the Control Panel. Don't start a file from scratch. Do the following:"
+  },
+  {
+    "slug": "user-don",
+    "title": "user-don",
+    "date": 1460188481813,
+    "synopsis": "[[don asia wiki org]]"
+  },
+  {
+    "slug": "welcome-visitors",
+    "title": "Welcome Visitors",
+    "date": 1563385941430,
+    "synopsis": "Welcome to this [[Federated Wiki]] site. From this page you can find who we are and what we do."
+  }
+]
